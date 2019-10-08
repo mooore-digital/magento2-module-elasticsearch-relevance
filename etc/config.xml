@@ -1,0 +1,10 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <catalog>
+            <search>
+                <elasticsearch_min_score>1.0</elasticsearch_min_score>
+            </search>
+        </catalog>
+    </default>
+</config>

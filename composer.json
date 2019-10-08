@@ -1,0 +1,19 @@
+{
+    "name": "mooore/magento2-module-elasticsearch-relevance",
+    "description": "Magento 2 module to set the min_score of elasticsearch search results.",
+    "require": {
+        "magento/framework": "102.*",
+        "magento/module-backend": "*",
+        "magento/module-elasticsearch": "100.*",
+        "magento/module-store": "101.*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mooore\\ElasticsearchRelevance\\": ""
+        }
+    }
+}
