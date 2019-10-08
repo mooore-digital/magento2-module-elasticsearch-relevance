@@ -1,6 +1,7 @@
 {
     "name": "mooore/magento2-module-elasticsearch-relevance",
     "description": "Magento 2 module to set the min_score of elasticsearch search results.",
+    "license": "MIT",
     "require": {
         "magento/framework": "102.*",
         "magento/module-backend": "*",
