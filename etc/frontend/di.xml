@@ -4,7 +4,5 @@
     <type name="Magento\Elasticsearch\Elasticsearch5\SearchAdapter\Mapper">
         <plugin sortOrder="1" name="mooore_elasticsearchrelevance_searchadapter_mapperplugin"
                 type="Mooore\ElasticsearchRelevance\Plugin\Elasticsearch5\SearchAdapter\MapperPlugin"/>
-        <plugin sortOrder="1" name="moooreElasticsearchRelevanceMapper"
-                type="Mooore\ElasticsearchRelevance\Plugin\Elasticsearch5\SearchAdapter\MapperPlugin"/>
     </type>
 </config>
