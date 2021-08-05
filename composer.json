@@ -5,7 +5,7 @@
     "require": {
         "magento/framework": "^102.0||^103.0",
         "magento/module-backend": "*",
-        "magento/module-elasticsearch": "^100.*||^101.*",
+        "magento/module-elasticsearch": "^101.*",
         "magento/module-store": "101.*"
     },
     "type": "magento2-module",
